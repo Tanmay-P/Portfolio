@@ -43,7 +43,8 @@ function Home() {
                 <Link to={''} className='btn btn-light m-3'>Contact</Link>
             </div> */}
                             <div className='download-resume'>
-                                <Link to={`${process.env.PUBLIC_URL}/CV-Tanmay_Pednekar.pdf`} download target="_blank" rel="" className='ui vertical labeled icon buttons'>
+                                //to={`${process.env.PUBLIC_URL}/CV-Tanmay_Pednekar.pdf`}
+                                <Link to={'https://raw.githubusercontent.com/Tanmay-P/Portfolio/main/public/CV-Tanmay_Pednekar.pdf'} download target="_blank" rel="" className='ui vertical labeled icon buttons'>
                                     <button class="ui mini secondary button">
                                         <i class="download icon"></i>
                                         Download Resume
