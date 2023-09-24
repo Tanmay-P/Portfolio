@@ -4,8 +4,6 @@ import Footer from './footer';
 
 import pic1 from './images/pic1.png';
 
-import resume from './files/CV-Tanmay_Pednekar.pdf';
-
 import './home.css';
 
 import Navbar from './navbar';
@@ -45,7 +43,7 @@ function Home() {
                 <Link to={''} className='btn btn-light m-3'>Contact</Link>
             </div> */}
                             <div className='download-resume'>
-                                <Link to={resume} download target="_blank" rel="" className='ui vertical labeled icon buttons'>
+                                <Link to={'/CV-Tanmay_Pednekar.pdf'} download target="_blank" rel="" className='ui vertical labeled icon buttons'>
                                     <button class="ui mini secondary button">
                                         <i class="download icon"></i>
                                         Download Resume
