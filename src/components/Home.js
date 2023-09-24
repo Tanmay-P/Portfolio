@@ -4,7 +4,7 @@ import Footer from './footer';
 
 import pic1 from './images/pic1.png';
 
-import resume from './CV-Tanmay_Pednekar.pdf';
+//import resume from './CV-Tanmay_Pednekar.pdf';
 
 import './home.css';
 
@@ -45,14 +45,14 @@ function Home() {
                 <Link to={''} className='btn btn-light m-3'>Contact</Link>
             </div> */}
                             <div className='download-resume'>
-                                <Link to={resume} download target="_blank" rel="" >
+                                {/* <Link to={resume} download target="_blank" rel="" > */}
                                     <div className='ui mini vertical labeled icon buttons'>
                                         <button class="ui mini secondary button">
                                             <i class="download icon"></i>
                                             Download Resume
                                         </button>
                                     </div>
-                                </Link>
+                                {/* </Link> */}
                             </div>
                         </div>
                     </div>
