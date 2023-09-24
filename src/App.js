@@ -13,7 +13,7 @@ import {
 
 function App() {
   return (
-      <BrowserRouter basename={window.location.pathname || ''}>
+      <BrowserRouter >
         <Routes>
 
           <Route path={'/'} element={<Home/>}/>
