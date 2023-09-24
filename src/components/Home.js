@@ -9,6 +9,7 @@ import resume from './files/CV-Tanmay_Pednekar.pdf';
 import './home.css';
 
 import Navbar from './navbar';
+import { Link } from 'react-router-dom';
 
 function Home() {
 
@@ -44,12 +45,12 @@ function Home() {
                 <Link to={''} className='btn btn-light m-3'>Contact</Link>
             </div> */}
                             <div className='download-resume'>
-                                <a href={resume} download className='ui vertical labeled icon buttons'>
+                                <Link to={resume} download target="_blank" rel="" className='ui vertical labeled icon buttons'>
                                     <button class="ui mini secondary button">
                                         <i class="download icon"></i>
                                         Download Resume
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
