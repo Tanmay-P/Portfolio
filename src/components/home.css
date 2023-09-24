@@ -1,0 +1,77 @@
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f5f5fa;
+    color: #0f0c0c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background: linear-gradient(
+    to right,
+    pink 0%,
+    pink 50%,
+    paleturquoise 50%,
+    paleturquoise 100%); */
+}
+
+
+.home {
+    margin: 20px;
+}
+
+
+.part1 .heading h1 {
+    /* box-shadow: 8px 8px 20px #aaa, -8px -8px 20px #fff; */
+    font : bold 5vw Georgia, serif;
+}
+.part1 .heading h4 {
+    font : bold 2vw Georgia, serif;
+    color: #555;
+}
+.part1 .description {
+    font : 1rem Georgia, serif;
+}
+.part1 .buttons {
+    display: flex;
+    justify-content: left; 
+}
+
+
+
+.part2 { 
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.part2 .center {
+    margin: 20px;
+}
+
+.part2 img {
+    width: 20vw;
+    box-shadow: 8px 8px 20px #aaa, -8px -8px 20px #fff;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.part2 img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .part1 .heading h1 {
+        font : bold 10vw Georgia, serif;
+    }
+    .part1 .heading h4 {
+        font : bold 5vw Georgia, serif;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .part2 img {
+        width: 45vw;
+    }
+}

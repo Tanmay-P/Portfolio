@@ -1,0 +1,78 @@
+.footer .part-description h1 {
+    font: bold 20px Georgia, serif;
+    margin: 0;
+}
+
+.footer .part-description p {
+    font: 1.2vw Georgia, serif;
+}
+
+
+.footer .part-social .social .heading h1 {
+    font: bold 2vw Georgia, serif;
+}
+
+/* .footer .part-social .social .social-icons i {
+    color: #fff;
+}  */
+
+/* .footer .part-social .social .social-icons .facebook-icon i:hover {
+    color: #0866ff;
+} */
+
+.footer .part-social .social .social-icons .instagram-icon {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    /* -webkit-background-clip: text; */
+    /* background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+/* .footer .part-social .social .social-icons .linkedin-icon i:hover {
+    color: #0072b1;
+} */
+
+.footer .part-social.social .social-icons .github-icon {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    /* 
+    background: #d6249f; */
+}
+
+.footer .part-details .heading h1 {
+    margin: 0;
+    font: bold 2vw Georgia, serif;
+}
+
+.footer .part-details .details h1 {
+    margin: 0;
+    font: 1.2vw Georgia, serif;
+}
+
+.footer .part-details .details span {
+    font: 1vw Georgia, serif;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 575px) {
+
+    .footer .part-description p {
+        font: 3vw Georgia, serif;
+    }
+
+    .footer .part-social .social .heading h1 {
+        font: bold 6vw Georgia, serif;
+    }
+
+    .footer .part-details .heading h1 {
+        margin: 0;
+        font: bold 6vw Georgia, serif;
+    }
+
+    .footer .part-details .details h1 {
+        margin: 0;
+        font: 3.3vw Georgia, serif;
+    }
+
+    .footer .part-details .details span {
+        font: 3vw Georgia, serif;
+    }
+}

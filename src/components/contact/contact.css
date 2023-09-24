@@ -1,0 +1,59 @@
+.contact .contact-image {
+    padding: 2rem;
+}
+
+.contact .contact-image img {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+.contact .contact-form-details .heading h1 {
+    font: bold 4vw Georgia, serif;
+}
+
+.contact .contact-details h1 {
+    font: bold 1.2vw Georgia, serif;
+    margin: 0;
+}
+
+.contact .contact-details p {
+    font: 1.2vw Georgia, serif;
+}
+
+.contact .contact-details .social .social-icons i {
+    color: #444;
+}
+
+.contact .contact-details .social .social-icons .facebook-icon i:hover {
+    color: #0866ff;
+}
+
+.contact .contact-details .social .social-icons .instagram-icon i:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact .contact-details .social .social-icons .linkedin-icon i:hover {
+    color: #0072b1;
+}
+
+.contact .contact-details .social .social-icons .github-icon i:hover {
+    color: #c9510c;
+}
+
+@media screen and (max-width: 767px) {
+    .contact .contact-form-details .heading h1 {
+        font: bold 7vw Georgia, serif;
+    }
+
+    .contact .contact-details h1 {
+        font: bold 2.5vw Georgia, serif;
+        margin-bottom: 10px;
+    }
+
+    .contact .contact-details p {
+        font: 1.5vw Georgia, serif;
+    }
+}
