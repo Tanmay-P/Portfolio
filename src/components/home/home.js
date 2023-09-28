@@ -1,15 +1,15 @@
 import React from 'react';
-import EducationDetails from './education';
-import Footer from './footer';
+import Footer from '../dashboard/footer';
 
-import pic1 from './images/pic1.png';
+import pic1 from '../images/pic1.png';
 
 //import resume from './CV-Tanmay_Pednekar.pdf';
 
 import './home.css';
 
-import Navbar from './navbar';
-import { Link } from 'react-router-dom';
+import Navbar from '../dashboard/navbar';
+// import EducationDetails from '../about/education';
+//import { Link } from 'react-router-dom';
 
 function Home() {
 
@@ -18,7 +18,7 @@ function Home() {
 
             <Navbar />
 
-            <div className='row home p-3' style={{ margin: "0" }}>
+            <div className='row home p-3 mb-3'>
 
                 <div className='container col-md-7 text-left'>
                     <div className='container p-3 part1'>
@@ -34,26 +34,28 @@ function Home() {
                                 where I harness my skills to develop and deliver robust software solutions.
                             </p>
                             {/* <p>
-                I am a full-stack developer with a Bachelor's degree in Information Technology 
-                and currently pursuing my Master's in Computer Application. 
-                I am employed at Capgemini as a Software Associate, 
-                bringing a blend of academic excellence and professional experience to the tech industry.
-            </p> */}
+                                    I am a full-stack developer with a Bachelor's degree in Information Technology 
+                                    and currently pursuing my Master's in Computer Application. 
+                                    I am employed at Capgemini as a Software Associate, 
+                                    bringing a blend of academic excellence and professional experience to the tech industry.
+                                </p> */}
                         </div>
                         <div className='container buttons'>
                             {/* <div className=''>
-                <Link to={''} className='btn btn-light m-3'>Contact</Link>
-            </div> */}
+                                <Link to={''} className='btn btn-light m-3'>Contact</Link>
+                                </div> */}
+
                             <div className='download-resume'>
                                 {/* <Link to={resume} download target="_blank" rel="" > */}
-                                    <div className='ui mini vertical labeled icon buttons'>
-                                        <button class="ui mini secondary button">
-                                            <i class="download icon"></i>
-                                            Download Resume
-                                        </button>
-                                    </div>
+                                <div className='ui mini vertical labeled icon buttons'>
+                                    <button class="ui mini secondary button">
+                                        <i class="download icon"></i>
+                                        Download Resume
+                                    </button>
+                                </div>
                                 {/* </Link> */}
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -67,7 +69,10 @@ function Home() {
 
             </div>
 
-            <EducationDetails />
+
+            {/* <EducationDetails/> */}
+
+            
 
             <Footer />
 

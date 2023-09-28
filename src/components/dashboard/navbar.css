@@ -1,0 +1,23 @@
+.navbarHeading .portfolio {
+    font: small-caps bold 20px Georgia, serif;
+    letter-spacing: 5px;
+    text-decoration: overline;
+}
+.navbar .navbar-collapse ul li {
+    margin-right: 10px;
+    transition: .3s;
+}
+.navbar .navbar-collapse ul li:hover {
+    background-color: #ddd;
+}
+
+.navbar #navbarNav ul li .nav-link {
+    color: #0f0c0c;
+}
+
+@media screen and (max-width : 991px) {
+    .navbar .navbar-collapse {
+        padding: 20px;
+        background-color: #eee;
+    }
+}

@@ -1,11 +1,11 @@
 import { TextField } from "@mui/material";
 import React, {  } from "react";
-import Navbar from "../navbar";
+import Navbar from "../dashboard/navbar";
 
 import './contact.css';
 
 import image from "../images/pic1.png";
-import Footer from "../footer";
+import Footer from "../dashboard/footer";
 
 function Contact() {
 
@@ -100,13 +100,13 @@ function Contact() {
                                                 <i className="facebook Medium icon"></i>
                                             </Link>
                                             <Link to={""} className="instagram-icon">
-                                                <i class="instagram Medium icon"></i>
+                                                <i className="instagram Medium icon"></i>
                                             </Link>
                                             <Link to={""} className="linkedin-icon">
-                                                <i class="linkedin Medium icon"></i>
+                                                <i className="linkedin Medium icon"></i>
                                             </Link>
                                             <Link to={""} className="github-icon">
-                                                <i class="github Medium icon"></i>
+                                                <i className="github Medium icon"></i>
                                             </Link>
                                         </div>
 

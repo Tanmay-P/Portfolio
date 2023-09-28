@@ -18,8 +18,8 @@ function EducationDetails() {
 
                         <div className="col-md d-flex detail-card">
                             <div className='logo'>
-                                <div class="ui large secondary cap-icon">
-                                    <i class="graduation icon"></i>
+                                <div className="ui large secondary cap-icon">
+                                    <i className="graduation icon"></i>
                                 </div>
                             </div>
 
@@ -40,8 +40,8 @@ function EducationDetails() {
 
                         <div className="col-md d-flex detail-card">
                             <div className='logo'>
-                                <div class="ui large secondary cap-icon">
-                                    <i class="graduation icon"></i>
+                                <div className="ui large secondary cap-icon">
+                                    <i className="graduation icon"></i>
                                 </div>
                             </div>
 

@@ -1,0 +1,94 @@
+.about .heading h1 {
+    font: bold 4vw Georgia, serif;
+}
+
+.about .content .content-image {
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+.about .content .content-image img {
+    width: 80%;
+}
+
+.about .content .content-description h1 {
+    font: 3vw Georgia, serif;
+}
+
+.about .content .content-description .info .brief ul li {
+    font: 1.6vw Georgia, serif;
+    line-height: 1.7;
+}
+
+.about .jumbotron h3 {
+    font: 1.3vw Georgia, serif;
+}
+
+.about .technologies {
+    text-align: left;
+}
+
+.about .technologies .heading h3 {
+    font: 2vw Georgia, serif;
+}
+
+.about .technologies h4 {
+    font: bold 1.5vw Georgia, serif;
+    text-decoration: underline;
+}
+
+.about .technologies .tech-stack {
+    padding: 1rem;
+    text-align: center;
+}
+.about .technologies .tech-stack p {
+    font: 2vw Georgia, serif;
+    padding: 1rem;
+}
+.about .technologies img {
+    width: 60px;
+}
+
+@media screen and (max-width: 600px) {
+    .about .heading {
+        margin: 0;
+    }
+
+    .about .heading h1 {
+        font: bold 8vw Georgia, serif;
+    }
+
+
+    .about .content .content-description h1 {
+        font: 5.2vw Georgia, serif;
+    }
+    
+    .about .content .content-description .info .brief ul li {
+        font: 3.2vw Georgia, serif;
+        line-height: 1.7;
+    }
+
+    .about .jumbotron h3 {
+        font: 2.5vw Georgia, serif;
+    }
+    
+    .about .technologies .heading h3 {
+        font: 4vw Georgia, serif;
+    }
+    
+    .about .technologies h4 {
+        font: bold 3vw Georgia, serif;
+    }
+    
+    .about .technologies .tech-stack p {
+        font: 4vw Georgia, serif;
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width:575px) {
+    .about .technologies {
+        text-align: center;
+    }
+}

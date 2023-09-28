@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import './footer.css';
 
@@ -28,6 +28,7 @@ function Footer() {
 
                     <div className="heading p-3">
                         <h1>Personal Details</h1>
+                        <hr className="mb-0" style={{backgroundColor:"#555"}}></hr>
                     </div>
 
                     <div className="details p-3">
@@ -52,52 +53,67 @@ function Footer() {
                     <div className="social">
                         <div className="heading p-3">
                             <h1>Follow me</h1>
+                            <hr className="mb-0" style={{backgroundColor:"#555"}}></hr>
                         </div>
-
                         <div className="social-icons p-3">
 
-                            <Link to={""} className="facebook-icon ui mini circular facebook icon button">
+                            {/* <Link to={""} className="social-icon m-2">
+                                <img src={facebook} alt="facebook" style={{width:"25px"}}/>
+                            </Link>
+
+                            <Link to={""} className="social-icon m-2">
+                                <img src={instagram} alt="facebook" style={{width:"25px"}}/>
+                            </Link>
+
+                            <Link to={""} className="social-icon m-2">
+                                <img src={linkedin} alt="facebook" style={{width:"25px"}}/>
+                            </Link>
+
+                            <Link to={""} className="social-icon m-2">
+                                <img src={github} alt="facebook" style={{width:"25px"}}/>
+                            </Link> */}
+
+                            <a href={"https://www.facebook.com/profile.php?id=100005380007731&mibextid=ZbWKwL"} className="facebook-icon ui mini circular facebook icon button m-2">
                                 <i className="facebook Medium icon"></i>
-                                {/* Facebook */}
-                            </Link>
+                            </a>
 
-                            <Link to={""} className="instagram-icon ui mini  circular instagram icon button">
-                                <i class="instagram Medium icon"></i>
-                            </Link>
+                            <a href={"https://www.instagram.com/tanmay.p_/"} className="instagram-icon ui mini  circular instagram icon button m-2">
+                                <i className="instagram Medium icon"></i>
+                            </a>
 
-                            <Link to={""} className="linkedin-icon ui mini circular linkedin icon button">
-                                <i class="linkedin Medium icon"></i>
-                            </Link>
+                            <a href={"https://www.linkedin.com/in/tanmay-pednekar-739726239"} className="linkedin-icon ui mini circular linkedin icon button m-2">
+                                <i className="linkedin Medium icon"></i>
+                            </a>
 
-                            <Link to={""} className="github-icon ui purple mini circular github icon button">
-                                <i class="github Medium icon"></i>
-                            </Link>
+                            <a href={"https://github.com/Tanmay-P"} className="github-icon ui purple mini circular github icon button m-2">
+                                <i className="github Medium icon"></i>
+                            </a>
 
                             {/* <div className="ui vertical labeled icon buttons">
 
-                                <div class="ui labeled mini icon buttons mb-2">
+                                <div className="ui labeled mini icon buttons mb-2">
                                     <Link to={""} className="facebook-icon ui circular facebook icon button">
                                         <i className="facebook Medium icon"></i>
                                         Facebook
                                     </Link>
                                 </div>
 
-                                <div class="ui labeled mini icon buttons mb-2">
+                                <div className="ui labeled mini icon buttons mb-2">
                                     <Link to={""} className="instagram-icon ui button instagram">
-                                        <i class="instagram Medium icon"></i>
+                                        <i className="instagram Medium icon"></i>
                                         Instagram
                                     </Link>
                                 </div>
-                                <div class="ui labeled mini icon buttons mb-2">
+                                <div className="ui labeled mini icon buttons mb-2">
                                     <Link to={""} className="linkedin-icon ui button linkedin">
-                                        <i class="linkedin Medium icon"></i>
+                                        <i className="linkedin Medium icon"></i>
                                         LinkedIn
                                     </Link>
                                 </div>
 
-                                <div class="ui labeled mini purple icon buttons ">
+                                <div className="ui labeled mini purple icon buttons ">
                                     <Link to={""} className="github-icon ui button github ">
-                                        <i class="github Medium icon"></i>
+                                        <i className="github Medium icon"></i>
                                         Github
                                     </Link>
                                 </div>

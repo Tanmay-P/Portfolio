@@ -14,7 +14,7 @@ function Navbar() {
                 </div>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarNav" style={{ justifyContent: 'right' }}>
@@ -22,9 +22,9 @@ function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link mx-2" aria-current="page" to={'/'}>Home</Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <Link className="nav-link mx-2" to={''}>About</Link>
-                        </li> */}
+                        <li className="nav-item">
+                            <Link className="nav-link mx-2" to={'/about'}>About</Link>
+                        </li>
                         <li className="nav-item">
                             <Link className="nav-link mx-2" to={''}>Projects</Link>
                         </li>
