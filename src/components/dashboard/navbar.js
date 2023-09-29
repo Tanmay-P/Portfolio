@@ -26,7 +26,7 @@ function Navbar() {
                             <Link className="nav-link mx-2" to={'/about'}>About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link mx-2" to={''}>Projects</Link>
+                            <Link className="nav-link mx-2" to={'/projects'}>Projects</Link>
                         </li>
                         <li className="nav-item contact">
                             <Link className="nav-link mx-2" to={'/contact'}>Contact</Link>
