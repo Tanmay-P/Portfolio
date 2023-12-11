@@ -4,7 +4,7 @@ body {
     text-align: center;
     background-color: #f5f5fa;
     color: #0f0c0c;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     /* background: linear-gradient(
     to right,
     pink 0%,
@@ -15,20 +15,30 @@ body {
 
 
 .home {
-    
+    background-image: url('https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;  
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-content: space-between;
+
+    color: #fff;
 }
 
 
 .part1 .heading h1 {
     /* box-shadow: 8px 8px 20px #aaa, -8px -8px 20px #fff; */
-    font : bold 5vw Georgia, serif;
+    font : bold 5vw 'Lora', serif;
 }
-.part1 .heading h4 {
-    font : bold 2vw Georgia, serif;
-    color: #555;
+.part1 .heading h1 span {
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px #000;
 }
 .part1 .description {
-    font : 1rem Georgia, serif;
+    font : 1.2rem 'Lora', serif;
 }
 .part1 .buttons {
     display: flex;
@@ -63,10 +73,10 @@ body {
 
 @media screen and (max-width: 700px) {
     .part1 .heading h1 {
-        font : bold 10vw Georgia, serif;
+        font : bold 6vw 'Lora', serif;
     }
-    .part1 .heading h4 {
-        font : bold 5vw Georgia, serif;
+    .part1 .description p {
+        font : 3vw 'Lora', serif;
     }
 }
 

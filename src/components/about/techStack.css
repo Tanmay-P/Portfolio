@@ -1,0 +1,32 @@
+
+
+.box {
+    padding: 10px;
+    box-shadow: 2px 2px 10px #aaa;
+    margin-bottom: 30px;
+}
+
+.box .head h3 {
+    letter-spacing: 2px;
+}
+
+.box .tech {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+
+    padding: 10px;
+}
+
+.box .tech p {
+    margin: 0;
+    border-radius: 10px;
+    padding: 7px 12px;
+    text-align: center;
+    cursor: default;
+
+    box-shadow: 2px 2px 2px #aaa, -2px -2px 2px #eee;
+}
+.box .tech p:hover{
+    box-shadow: inset 2px 2px 2px #aaa, inset -2px -2px 2px #eee;
+}

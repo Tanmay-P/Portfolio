@@ -1,8 +1,4 @@
 import React from "react";
-import Footer from "../dashboard/footer";
-import Navbar from "../dashboard/navbar";
-
-import { Accordion } from 'semantic-ui-react';
 
 import './projects.css';
 
@@ -13,7 +9,7 @@ function Projects() {
     return (
         <div>
 
-            <Navbar />
+            {/* <Navbar /> */}
 
             <div className="container-fluid">
 
@@ -112,7 +108,7 @@ function Projects() {
 
             </div>
 
-            <Footer />
+            {/* <Footer /> */}
 
         </div>
     )
