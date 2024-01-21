@@ -10,7 +10,9 @@ import {
 } from 'react-router-dom';
 
 import Home from './components/home/home.js';
-import Contact from './components/contact/contact.js'
+import Contact from './components/contact/contact.js';
+
+import 'typeface-roboto';
 
 function App() {
   return (

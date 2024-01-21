@@ -19,11 +19,11 @@ function TechnologyStack() {
                         </div>
 
                         <div className="tech">
-                            <p className="">HTML</p>
-                            <p className="">CSS</p>
-                            <p className="">Bootstrap</p>
-                            <p className="">JavaScript</p>
-                            <p className="">React JS</p>
+                            <p className="html" style={{border:"1px solid #ff7a21", color:"#ff7a21"}}>HTML</p>
+                            <p className="css" style={{border:"1px solid #2887ed", color:"#2887ed"}}>CSS</p>
+                            <p className="bs" style={{border:"1px solid #8d03a8", color:"#8d03a8"}}>Bootstrap</p>
+                            <p className="js" style={{border:"1px solid #d6d01c", color:"#d6d01c"}}>JavaScript</p>
+                            <p className="rjs" style={{border:"1px solid #0298e3", color:"#0298e3"}}>React JS</p>
                         </div>
                     </div>
                 </div>
@@ -34,9 +34,9 @@ function TechnologyStack() {
                             <h3>BACKEND</h3>
                         </div>
                         <div className="tech">
-                            <p className="">Java</p>
-                            <p className="">Spring Boot</p>
-                            <p className="">Microservices</p>
+                            <p className="java" style={{border:"1px solid #f71629", color:"#f71629"}}>Java</p>
+                            <p className="sb" style={{border:"1px solid #06b81d", color:"#06b81d"}}>Spring Boot</p>
+                            <p className="mic" style={{border:"1px solid #878a87", color:"#878a87"}}>Microservices</p>
                         </div>
                     </div>
                 </div>
@@ -47,8 +47,8 @@ function TechnologyStack() {
                             <h3>DATABASE</h3>
                         </div>
                         <div className="tech">
-                            <p className="">PostgreSQL</p>
-                            <p className="">MySQL</p>
+                            <p className="psql" style={{border:"1px solid #20507a", color:"#20507a"}}>PostgreSQL</p>
+                            <p className="msql" style={{border:"1px solid #ff7a21", color:"#ff7a21"}}>MySQL</p>
                         </div>
                     </div>
                 </div>

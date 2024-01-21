@@ -11,6 +11,8 @@ import Projects from '../projects/projects';
 // import EducationDetails from '../about/education';
 //import { Link } from 'react-router-dom';
 
+import developer_img from '../images/developer_image.png';
+
 function Home() {
 
     return (
@@ -21,17 +23,35 @@ function Home() {
                 <Navbar />
 
                 <div className='container p-3 part1'>
-                    <div className='container heading p-3'>
-                        <h1>Hello! My name is <span>Tanmay</span> and I'm a <span>Web Developer</span></h1>
+                    <div className='container p-3' style={{ position: "relative" }}>
+                        {/* <h1>Hello! My name is <span>Tanmay</span> and I'm a <span>Web Developer</span></h1> */}
                         {/* <h4 className='mt-3'>Web Developer</h4> */}
+
+                        <div className='yellow-backgroud-div'>
+                            <div  className='yellow-backgroud'></div>
+                        </div>
+
+                        <div style={{ position: "relative" }}>
+
+                            <div className='developer-image'>
+                                <img src={developer_img} alt="developer_img" />
+                            </div>
+
+                            <div className='heading' style={{}}>
+                                <h1>Tanmay Pednekar</h1>
+                            </div>
+
+                        </div>
+
                     </div>
+
                     <div className='container p-3 description'>
-                        <p>
+                        {/* <p>
                             I am a full-stack developer with a Bachelor's degree in Information Technology.
                             Currently, I'm pursuing my Master's in Computer Application.
                             Professionally, I'm employed as a Software Associate at Capgemini,
                             where I harness my skills to develop and deliver robust software solutions.
-                        </p>
+                        </p> */}
                         {/* <p>
                                     I am a full-stack developer with a Bachelor's degree in Information Technology 
                                     and currently pursuing my Master's in Computer Application. 
@@ -40,7 +60,7 @@ function Home() {
                                 </p> */}
                     </div>
 
-                    <div className='container buttons mt-3' style={{ placeContent: "center" }}>
+                    {/* <div className='container buttons mt-3' style={{ placeContent: "center" }}>
                         <div className='download-resume'>
                             <div className='ui mini vertical labeled icon buttons'>
                                 <button class="ui mini button">
@@ -49,19 +69,9 @@ function Home() {
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
-
-                <div style={{height:"10vh"}}> </div>
-                
-                {/* 
-                <div className='container col-md-5 part2'>
-                    <div className='center'>
-                        <img src={pic1} alt="portfolio" />
-                    </div>
-                </div> */}
-
 
             </div>
 

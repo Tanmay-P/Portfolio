@@ -59,8 +59,8 @@ function Navbar() {
             <nav className={`navbar navbar-expand-lg fixed-top navbar-light p-3 ${isScrolled ? 'scrolled' : ''}`}>
 
                 <div className="navbarHeading mt-1">
-                    <Link to={'/'} style={{ cursor: "pointer", color: "#fff" }}>
-                        <h2 className=" portfolio">PORTFOLIO</h2>
+                    <Link to={'/'}>
+                        <h2 className="portfolio" style={isScrolled ? {color:"#fff"} : {}}>PORTFOLIO</h2>
                     </Link>
                 </div>
 

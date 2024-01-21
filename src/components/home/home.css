@@ -2,8 +2,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #f5f5fa;
     color: #0f0c0c;
+    font-family: 'Roboto', sans-serif;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
     /* background: linear-gradient(
     to right,
@@ -13,41 +13,64 @@ body {
     paleturquoise 100%); */
 }
 
-
 .home {
-    background-image: url('https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg');
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;  
-
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    place-content: space-between;
+}
 
-    color: #fff;
+.part1 .yellow-backgroud-div {
+    position: absolute;
+    left: 35%;
+    z-index: -1;
+}
+
+.part1 .yellow-backgroud {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    background: yellow;
 }
 
 
-.part1 .heading h1 {
+.part1 .developer-image {
+    position: absolute;
+    left: 30%;
+    top: 70%;
+}
+
+.part1 .developer-image img {
+    width: 35rem;
+    height: auto;
+}
+
+
+.home .part1 .heading {
+    position:relative; 
+    top:10px;
+    left:70px;
+    z-index:-1
+}
+.home .part1 .heading h1 {
     /* box-shadow: 8px 8px 20px #aaa, -8px -8px 20px #fff; */
-    font : bold 5vw 'Lora', serif;
+    font: bold 9rem 'Roboto', serif;
 }
+
 .part1 .heading h1 span {
     text-decoration: underline;
     text-shadow: 3px 3px 5px #000;
 }
+
 .part1 .description {
-    font : 1.2rem 'Lora', serif;
+    font: 1.2rem 'Lora', serif;
 }
+
 .part1 .buttons {
     display: flex;
-    justify-content: left; 
+    justify-content: left;
 }
 
 
 
-.part2 { 
+.part2 {
     display: flex;
     place-content: center;
     align-items: center;
@@ -71,17 +94,157 @@ body {
 
 
 
-@media screen and (max-width: 700px) {
-    .part1 .heading h1 {
-        font : bold 6vw 'Lora', serif;
+@media screen and (max-width: 768px) {
+    .home { 
+        height: 80vh;
     }
-    .part1 .description p {
-        font : 3vw 'Lora', serif;
+    .part1 {
+        margin: 5rem 0px;
+    }
+    .part1 .yellow-backgroud-div {
+        left: 30%;
+    }
+
+    .part1 .yellow-backgroud {
+        width: 23rem;
+        height: 23rem;
+    }
+
+    .part1 .developer-image {
+        left: 20%;
+        top: 100%;
+    }
+
+    .part1 .developer-image img {
+        width: 30rem;
+        height: auto;
+    }
+
+    .home .part1 .heading {
+        top: 20px;
+        left: 30px;
+    }
+    .home .part1 .heading h1 {
+        font: bold 4rem 'Roboto', serif;
     }
 }
 
-@media screen and (max-width: 767px) {
-    .part2 img {
-        width: 45vw;
+@media screen and (max-width: 600px) {
+    .home { 
+        height: 80vh;
+    }
+
+    .part1 .yellow-backgroud-div {
+        left: 30%;
+    }
+
+    .part1 .yellow-backgroud {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .part1 .developer-image {
+        left: 20%;
+        top: 100%;
+    }
+
+    .part1 .developer-image img {
+        width: 30rem;
+        height: auto;
+    }
+
+    .home .part1 .heading {
+        top: 20px;
+        left: 30px;
+    }
+    .home .part1 .heading h1 {
+        font: bold 4rem 'Roboto', serif;
+    }
+}
+
+
+@media screen and (max-width: 426px) {
+    .home { 
+        height: 80vh;
+    }
+    
+    .part1 .yellow-backgroud-div {
+        left: 15%;
+    }
+
+    .part1 .yellow-backgroud {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .part1 .developer-image {
+        left: 0%;
+        top: 100%;
+    }
+
+    .part1 .developer-image img {
+        width: 23rem;
+        height: auto;
+    }
+
+    .home .part1 .heading {
+        top: 15px;
+        left: 0px;
+    }
+    .home .part1 .heading h1 {
+        font: bold 40px 'Roboto', serif;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .home { 
+        height: 80vh;
+    }
+    .part1 .yellow-backgroud-div {
+        left: 15%;
+    }
+
+    .part1 .yellow-backgroud {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .part1 .developer-image {
+        left: 0%;
+        top: 100%;
+    }
+
+    .part1 .developer-image img {
+        width: 18rem;
+        height: auto;
+    }
+
+    .home .part1 .heading {
+        top: 15px;
+        left: 0px;
+    }
+    .home .part1 .heading h1 {
+        font: bold 32px 'Roboto', serif;
+    }
+}
+
+
+
+@media screen and (max-height: 900px) {
+    .part1 {
+        margin: 13rem 0rem;
+    }   
+}
+
+@media screen and (max-height: 700px) {
+    .part1 {
+        margin: 4rem 0rem;
+    }
+}
+
+
+@media screen and (max-height: 500px) {
+    .part1 {
+        margin: 5rem 0rem;
     }
 }

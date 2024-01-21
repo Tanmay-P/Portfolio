@@ -24,9 +24,38 @@
     padding: 7px 12px;
     text-align: center;
     cursor: default;
-
-    box-shadow: 2px 2px 2px #aaa, -2px -2px 2px #eee;
+    transition: box-shadow 0.3s ease-in-out;
 }
-.box .tech p:hover{
-    box-shadow: inset 2px 2px 2px #aaa, inset -2px -2px 2px #eee;
+
+.html:hover {
+    box-shadow: 0px 0px 8px #ff7a21;
+}
+.css:hover {
+    box-shadow: 0px 0px 8px #2887ed;
+}
+.js:hover {
+    box-shadow: 0px 0px 8px #d6d01c;
+}
+.bs:hover {
+    box-shadow: 0px 0px 8px #8d03a8;
+}
+.rjs:hover {
+    box-shadow: 0px 0px 8px #0298e3;
+}
+
+.java:hover {
+    box-shadow: 0px 0px 8px #f71629;
+}
+.sb:hover {
+    box-shadow: 0px 0px 8px #06b81d;
+}
+.mic:hover {
+    box-shadow: 0px 0px 8px #878a87;
+}
+
+.psql:hover {
+    box-shadow: 0px 0px 8px #20507a;
+}
+.msql:hover {
+    box-shadow: 0px 0px 8px #ff7a21;
 }
