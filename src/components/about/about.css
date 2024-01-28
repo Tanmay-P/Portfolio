@@ -1,106 +1,59 @@
 .about .heading h1 {
-    font: bold 4vw 'Lora', serif;
+    font: bold 3rem 'Roboto', serif;
 }
 
-.about .content .content-image {
-    display: flex;
-    place-content: center;
-    align-items: center;
+.about-image {
+    display: grid;
+    place-content: center; 
+}
+.about-image img {
+    width: 30rem; 
+    filter: drop-shadow(2px 2px 5px #555);
 }
 
-.about .content .content-image img {
-    width: 80%;
+.content {
+    display: grid;
+    place-content: center; 
+    padding-right: 0;
+}
+.content h1 {
+    color: blueviolet;
+}
+.content p {
+    text-align: justify;
 }
 
-.about .content .content-description h1 {
-    font: 3vw 'Lora', serif;
+td {
+    border: none !important;
+    padding-left: 0 !important;
+}
+td i {
+    color: blueviolet;
 }
 
-.about .content .content-description .info .brief ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-}
-
-.about .content .content-description .info .brief ul li {
-    font: 1.6vw 'Lora', serif;
-    line-height: 1.7;
-}
-
-.about .jumbotron h3 {
-    font: 1.3vw 'Lora', serif;
-}
-
-.about .technologies {
-    text-align: left;
-}
-
-.about .technologies .heading h3 {
-    font: 2vw 'Lora', serif;
-}
-
-.about .technologies h4 {
-    font: bold 1.5vw 'Lora', serif;
-    text-decoration: underline;
-}
-
-.about .technologies .tech-stack {
-    padding: 1rem;
-    text-align: center;
-}
-
-.about .technologies .tech-stack p {
-    font: 2vw 'Lora', serif;
-    padding: 1rem;
-}
-
-.about .technologies img {
-    width: 60px;
+.detail {
+    font-weight: bold;
 }
 
 
-
-
-@media screen and (max-width: 600px) {
-    .about .heading {
-        margin: 0;
-    }
-
+@media screen and (max-width: 426px) {
     .about .heading h1 {
-        font: bold 8vw 'Lora', serif;
+        font: bold 2rem 'Roboto', serif;
+    }
+    .about-image img {
+        width: 25rem; 
     }
 
-
-    .about .content .content-description h1 {
-        font: 5.2vw 'Lora', serif;
+    .content {
+        margin-top: 4rem;
     }
-
-    .about .content .content-description .info .brief ul li {
-        font: 3.2vw 'Lora', serif;
-        line-height: 1.7;
-    }
-
-    .about .jumbotron h3 {
-        font: 2.5vw 'Lora', serif;
-    }
-
-    .about .technologies .heading h3 {
-        font: 4vw 'Lora', serif;
-    }
-
-    .about .technologies h4 {
-        font: bold 3vw 'Lora', serif;
-    }
-
-    .about .technologies .tech-stack p {
-        font: 4vw 'Lora', serif;
-        padding: 1rem;
+    .content h1 {
+        text-align: center;
     }
 }
 
-
-@media screen and (max-width:575px) {
-    .about .technologies {
-        text-align: center;
+@media screen and (max-width:321px) {
+    table {
+        font-size: 13px;
     }
 }

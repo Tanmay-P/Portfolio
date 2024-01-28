@@ -5,7 +5,10 @@ import './education.css';
 function EducationDetails() {
 
     return (
-        <div className="p-3">
+        <div className="">
+
+            <hr></hr>
+
             <div className='container-fluid education '>
 
                 <div className="heading p-3 m-3">

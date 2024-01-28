@@ -9,13 +9,13 @@ function Projects() {
 
     return (
         <div>
-
+            <hr></hr>
             {/* <Navbar /> */}
 
             <div className="container-fluid">
 
                 <div className="heading m-3 p-3">
-                    <h1>My Projects</h1>
+                    <h1>Projects</h1>
                 </div>
 
                 <div className="projects text-left row p-3">

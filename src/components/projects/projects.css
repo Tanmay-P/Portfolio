@@ -1,5 +1,5 @@
 .heading h1 {
-    font: 3vw Georgia, serif;
+    font: bold 3vw "Roboto", serif;
 }
 
 .project {
@@ -31,7 +31,7 @@
 @media screen and (max-width:600px) {
 
     .heading h1 {
-        font: 6vw Georgia, serif;
+        font: bold 6vw "Roboto", serif;
     }
     
 }
