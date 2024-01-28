@@ -25,14 +25,15 @@ function About() {
                     <h1>About Me</h1>
                 </div>
 
-                <div className="row p-4">
-                    <div className="col-sm-6">
+
+                <div className="row p-4" style={{ width: "100%" }}>
+                    <div className="col-sm-6" style={{ paddingRight: "0", paddingLeft: "2rem" }}>
                         <div className="about-image">
                             <img src={webDeveloper} alt="web-developer" />
                         </div>
                     </div>
 
-                    <div className="col-sm-6 content text-left">
+                    <div className="col-sm-6 content text-left" style={{ paddingRight: "0", paddingLeft: "2rem" }}>
                         <h1>Tanmay Pednekar</h1>
                         <p>
                             At the age of 22, I've already carved a niche for myself in the vast realm of software development.
@@ -67,6 +68,7 @@ function About() {
                     </div>
 
                 </div>
+
 
                 {/* <div className="content  m-3">
                     <div className="col-md content-description text-left">

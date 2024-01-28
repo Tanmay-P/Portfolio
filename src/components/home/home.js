@@ -84,10 +84,6 @@ function Home() {
                 </p>
             </div>
 
-
-
-            {/* <EducationDetails/> */}
-
             <About />
 
             <Projects />
