@@ -27,8 +27,6 @@ function Contact() {
     return (
         <div>
 
-            <Navbar />
-
             <div className="container p-3">
 
                 {/* <div className="contact"> */}
@@ -126,8 +124,6 @@ function Contact() {
                 {/* </div> */}
 
             </div>
-
-            <Footer />
 
         </div>
     )

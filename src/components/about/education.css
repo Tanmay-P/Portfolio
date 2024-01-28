@@ -13,7 +13,8 @@
 .logo .cap-icon {
     padding: 12px 14px;
     border-radius: 38px;
-    box-shadow: 0px 0px 10px #ccc;
+    border: 1px solid blueviolet;
+    /* box-shadow: 0px 0px 10px #ccc; */
 }
 .logo .cap-icon  .icon {
     margin: 0;
@@ -24,17 +25,15 @@
     margin-left: 25px;
 }
 .detail .degree {
-    font: bold 2.5vw "Roboto", serif;
+    font: bold 2vw "Roboto", serif;
     margin-bottom: 5px;
 }
 .detail .college {
     font: 1.2vw "Roboto", serif;
     margin-bottom: 5px;
-    color: blueviolet;
 }
 .detail .location {
     font: 1.2vw "Roboto", serif;
-    color: blueviolet;
 }
 
 

@@ -10,6 +10,8 @@ import About from '../about/about';
 import Projects from '../projects/projects';
 
 import developer_img from '../images/developer_image.png';
+import EducationDetails from '../about/education';
+import TechnologyStack from '../about/techStack';
 
 function Home() {
 
@@ -32,8 +34,6 @@ function Home() {
 
             <div className='home'>
 
-                <Navbar />
-
 
                 <div className='container p-3 part1'>
 
@@ -44,7 +44,7 @@ function Home() {
                                 Web Developer
                             </h1>
                             <div className='ui mini vertical labeled icon buttons' style={{width:"fit-content"}}>
-                                <button class="ui mini button" onClick={handleDownload} style={{background:"blueviolet", color:"#fff"}}>
+                                <button class="ui mini black button" onClick={handleDownload} style={{}}>
                                     <i class="download icon"></i>
                                     Download Resume
                                 </button>
@@ -86,9 +86,11 @@ function Home() {
 
             <About />
 
-            <Projects />
+            <EducationDetails />
 
-            <Footer />
+            <TechnologyStack />
+
+            <Projects />
 
         </div>
     )

@@ -6,7 +6,7 @@ import './footer.css';
 function Footer() {
 
     return (
-        <div className="footer" style={{ backgroundColor: "#000", color: "#fff" }}>
+        <div className="footer" style={{ backgroundColor: "#eee", color: "#000" }}>
 
             <div className="row text-center" style={{ margin: "0" }}>
 
@@ -32,21 +32,22 @@ function Footer() {
                     </div>
 
                     <div className="details p-3">
-                        <div className="name mb-3">
-                            <h1>Name : <span>Tanmay Pednekar</span></h1>
-                            {/* <p>Tanmay Pednekar</p> */}
-                        </div>
-
-                        <div className="email mb-3">
-                            <h1>Email : <span>tanmaypednekar21@gmail.com</span></h1>
-                            {/* <p>tanmaypednekar21@gmail.com</p> */}
-                        </div>
-
-                        <div className="address">
-                            <h1>Based in : <span>Mumbai, Maharashtra.</span></h1>
-                            {/* <p>Mumbai, Maharashtra.</p> */}
-                        </div>
+                        <table className="table text-left">
+                            <tr>
+                                <td>Name</td>
+                                <td><b>Tanmay Pednekar</b></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td><b>tanmaypednekar21@gmail.com</b></td>
+                            </tr>
+                            <tr>
+                                <td>Based In</td>
+                                <td><b>Mumbai, Maharashtra.</b></td>
+                            </tr>
+                        </table>
                     </div>
+
                 </div>
 
                 <div className="col-sm-4 p-3 part-social">

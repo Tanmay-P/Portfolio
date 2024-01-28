@@ -7,8 +7,6 @@ function EducationDetails() {
     return (
         <div className="">
 
-            <hr></hr>
-
             <div className='container-fluid education '>
 
                 <div className="heading p-3 m-3">

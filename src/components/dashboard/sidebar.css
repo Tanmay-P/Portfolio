@@ -1,0 +1,56 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -150px;
+    /* Initial position off-screen */
+    width: 150px;
+    height: 100%;
+    background-color: blueviolet;
+    color: #fff;
+    transition: right 0.3s ease;
+    /* Smooth transition on left property */
+}
+
+.sidebar.open {
+    right: 0;
+}
+
+.close-button {
+    border: none;
+    cursor: pointer;
+    position: relative;
+    right: 6.5rem;
+    top: 5px;
+    background: transparent !important;
+    margin-bottom: 10px !important;
+}
+.close-button i {
+    color: #000 !important;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+}
+li a {
+    color: #fff;
+}
+
+li:hover {
+    background-color: #fff;
+}
+li:hover a {
+    color: blueviolet;
+}
+
+span {
+    margin-left: 20px;
+}

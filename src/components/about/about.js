@@ -45,7 +45,7 @@ function About() {
                         <table className="table">
                             <tr>
                                 <td>
-                                    <i className="icon map pin"></i>
+                                    <i className="icon map marker alternate"></i>
                                     Based In
                                 </td>
                                 <td className="detail">Mumbai, Maharashtra, India</td>
@@ -88,7 +88,6 @@ function About() {
 
 
 
-                <EducationDetails />
 
                 {/* 
                 <div className="technologies container p-3">
@@ -143,7 +142,6 @@ function About() {
                     </div>
                 </div> */}
 
-                <TechnologyStack />
 
             </div>
 

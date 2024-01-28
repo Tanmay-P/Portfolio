@@ -1,15 +1,15 @@
-.footer .part-description h1 {
-    font: bold 20px Georgia, serif;
-    margin: 0;
+.footer .part-description h2 {
+    font: bold 20px 'Roboto', serif;
 }
 
 .footer .part-description p {
-    font: 1.2vw Georgia, serif;
+    font: 1.2vw 'Roboto', serif;
+    text-align: justify;
 }
 
 
 .footer .part-social .social .heading h1 {
-    font: bold 2vw Georgia, serif;
+    font: bold 2vw 'Roboto', serif;
 }
 
 /* .footer .part-social .social .social-icons i {
@@ -39,40 +39,40 @@
 
 .footer .part-details .heading h1 {
     margin: 0;
-    font: bold 2vw Georgia, serif;
+    font: bold 2vw 'Roboto', serif;
 }
 
 .footer .part-details .details h1 {
     margin: 0;
-    font: 1.2vw Georgia, serif;
+    font: 1.2vw 'Roboto', serif;
 }
 
 .footer .part-details .details span {
-    font: 1vw Georgia, serif;
+    font: 1vw 'Roboto', serif;
     text-decoration: underline;
 }
 
 @media screen and (max-width: 575px) {
 
     .footer .part-description p {
-        font: 3vw Georgia, serif;
+        font: 3vw 'Roboto', serif;
     }
 
     .footer .part-social .social .heading h1 {
-        font: bold 6vw Georgia, serif;
+        font: bold 6vw 'Roboto', serif;
     }
 
     .footer .part-details .heading h1 {
         margin: 0;
-        font: bold 6vw Georgia, serif;
+        font: bold 6vw 'Roboto', serif;
     }
 
     .footer .part-details .details h1 {
         margin: 0;
-        font: 3.3vw Georgia, serif;
+        font: 3.3vw 'Roboto', serif;
     }
 
     .footer .part-details .details span {
-        font: 3vw Georgia, serif;
+        font: 3vw 'Roboto', serif;
     }
 }

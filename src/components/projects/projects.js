@@ -9,8 +9,6 @@ function Projects() {
 
     return (
         <div>
-            <hr></hr>
-            {/* <Navbar /> */}
 
             <div className="container-fluid">
 
@@ -36,8 +34,6 @@ function Projects() {
                 </div>
 
             </div>
-
-            {/* <Footer /> */}
 
         </div>
     )
