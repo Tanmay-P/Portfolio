@@ -25,7 +25,7 @@ function App() {
   return (
     <div className='App'>
 
-      <BrowserRouter>       {/* basename={window.location.pathname || ''}  */}
+      <BrowserRouter basename={window.location.pathname || ''}>       {/*   */}
         <Navbar />
         
         <Routes>
